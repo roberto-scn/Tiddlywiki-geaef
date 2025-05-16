@@ -1,6 +1,9 @@
 {
   "description": "Basic client-server edition",
-  "plugins": [],
+  "plugins": [
+    "$:/plugins/tiddlywiki/filesystem",
+    "$:/plugins/linonetwo/source-control-management"
+  ],
   "themes": [],
   "languages": [],
   "build": {
