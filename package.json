@@ -7,6 +7,7 @@
     "buildlibrary": "node -e \"require('./scripts/build').buildLibrary('[prefix[$:/]!prefix[$:/plugins/tiddlywiki/]!prefix[$:/themes/tiddlywiki/]!prefix[$:/languages/]!tag[$:/tags/PluginLibrary]!prefix[$:/plugins/kookma]]', 'public-dist/library');\"",
     "clean": "rimraf public-dist",
     "update": "npm-check-updates -u"
+    "build": "npm run buildonline",
   },
   "devDependencies": {
     "cross-env": "7.0.3",
